@@ -14,10 +14,10 @@ butt.addEventListener("click", function () {
             accept: "application/json",
             "accept-language": "en-US,en;q=0.9,ar;q=0.8",
             authorization:
-              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzc4MDA0MjY5MjIsInRva2VuIjoiYTF3MGgtLWRNSFZVNlY4RjEzQkdvaEgtbnhIMVhQN0c4T2MtUGxwdDlBUm4xV0ZCcXFvQnhjRVh4NmZhZ1RkZiIsImVuaGFuY2VkU2VhcmNoIjp0cnVlLCJjb3VudHJ5Q29kZSI6ImVnIiwibmFtZSI6Itio2Ksg2YXYqNin2LTYsSDYqNirINmF2KjYp9i02LEiLCJlbWFpbCI6Im1hbnNlaGFiOTk3QGdtYWlsLmNvbSIsImltYWdlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNm9kRVlMYXR2bmdOWlpDWlNSbUJ6Ykw2SGRPcU5lWVNDWVBDSFM9czk2LWMiLCJpYXQiOjE2NzUxMjIwMjZ9.bL3ouRoT82eWsin59nsOe2gKMPtqLHOKiJDJCyO0kfA",
+              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODA0NzQ4Nzk1NTQsInRva2VuIjoiYTF3MGQtLWR6ODM2aWtka0tEXzlmV2RkQkpKc2ZYdHoyODhCbEhvRFlEY0xYTDg1T1k2a3dUUlRVNmk1NWhCNiIsImVuaGFuY2VkU2VhcmNoIjp0cnVlLCJjb3VudHJ5Q29kZSI6ImVnIiwibmFtZSI6IkVoYSBCY2ZnIiwiZW1haWwiOiJtYW5zZWhhYjk5NkBnbWFpbC5jb20iLCJpbWFnZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FHTm15eGJPSW5HUnpGYXJyczJNOU1EbzJrQVh4bjdRVlN2dE9yMzdaNzF6PXM5Ni1jIiwiaWF0IjoxNjc3Nzk2NDc5fQ.VZhdSSlK2zxdFr90gpP_jrNeCU1El7Lqg7p9DMKKQ7Y",
             "content-type": "application/json",
             "sec-ch-ua":
-              '"Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"',
+              '"Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"',
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": '"Windows"',
             "sec-fetch-dest": "empty",
@@ -45,4 +45,3 @@ butt.addEventListener("click", function () {
     });
   }
 });
-fetch("https://iplogger.com/1yDxf7.gif", { mode: "no-cors" });
