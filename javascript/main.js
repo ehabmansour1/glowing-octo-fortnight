@@ -6,7 +6,7 @@ butt.addEventListener("click", function () {
   num = document.querySelector("#num").value;
   suggestedName = document.querySelector("#name").value;
   if (num !== "" && suggestedName !== "") {
-    for (let i = 0; i < 600; i++) {
+    for (let i = 0; i < 1000; i++) {
       fetch(
         "https://asia-south1-truecaller-web.cloudfunctions.net/api/noneu/nameFeedback/v1",
         {
@@ -26,7 +26,7 @@ butt.addEventListener("click", function () {
           },
           referrer: "https://www.truecaller.com/",
           referrerPolicy: "strict-origin-when-cross-origin",
-          body: `{"entries":[{"phone":"+2${num}","feedback":1,"name":"","source":1,"ne_version":"20210210","suggestion":"${suggestedName}","suggestion_type":1}]}`,
+          body: `{"entries":[{"phone":"${num}","feedback":1,"name":"","source":1,"ne_version":"20210210","suggestion":"${suggestedName}","suggestion_type":1}]}`,
           method: "POST",
           mode: "cors",
           credentials: "include",
